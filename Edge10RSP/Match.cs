@@ -111,6 +111,11 @@ namespace Edge10RSP
 
         }
 
+        /// <summary>
+        /// Adds the move in list of available moves for the specific match
+        /// </summary>
+        /// <returns><c>true</c>, if move was added, <c>false</c> otherwise.</returns>
+        /// <param name="move">Move.</param>
         public bool AddMove(Move move) {
             if(AvailableMoves.FindIndex(a => a.Label.ToLower() == move.Label.ToLower()) == -1) {
                 AvailableMoves.Add(move);
