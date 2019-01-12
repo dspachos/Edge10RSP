@@ -65,7 +65,7 @@ Cd to `Edge10RSPTests` and type from terminal `dotnet test` to run the tests.
 
 ## Tools
 
-I worked on Mac OS, I installed the Visual Studio Community edition, but the actual coding was done on Visual Studio Code, the .Net Core SDK, some C# extension from the marketplace and the dotnet cli. Block comments generated with the Visul Studio (and I changed the text a little).
+I worked on Mac OS, I installed the Visual Studio Community edition, but the actual coding was done on Visual Studio Code, the .Net Core SDK, some C# extension from the marketplace and the dotnet cli. Block comments generated with the Visual Studio (and I changed the text a little).
 
 ## What refactoring I could make in the future:
 
