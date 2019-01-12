@@ -60,12 +60,12 @@ We store the whole match history in a list (note: we store integers which repres
 ## Testing
 
 I used the `Xunit` to write 2 very simple tests as a demonstration.
-Cd to `Edge10RSPTests` and type from terminal `dotnet test` to run the test.
+Cd to `Edge10RSPTests` and type from terminal `dotnet test` to run the tests.
 
 
 ## Tools
 
-I worked in Mac OS, I installed the Visual Studio Community edition, but the actual coding was done on Visual Studio Code, the .Net Core SDK, some C# extension from the marketplace and the dotnet cli. Block comments generated with the Visul Studio (and I changed the text a little).
+I worked on Mac OS, I installed the Visual Studio Community edition, but the actual coding was done on Visual Studio Code, the .Net Core SDK, some C# extension from the marketplace and the dotnet cli. Block comments generated with the Visul Studio (and I changed the text a little).
 
 ## What refactoring I could make in the future:
 
@@ -81,23 +81,7 @@ Some future refactoring can be:
 
 5. Better code workflow and design of the `main` class
 
-6. A proper way to mask the input of player 1 (e.g. use an asterix) for Human vs Human matches
+6. A proper way to <strong>mask</strong> the input of player 1 (e.g. use an asterix) for Human vs Human matches
 
 Generally I'd spend some more time on designing the project (classes, members, methods, scope etc).
-
-## Some final comments
-
-<i>The whole think took me ~3hours including documentation, and generally I spent 1 more hour installing VStudio, libs, extensions etc.</i>
-
-<i>Probably I'm missing some of the best practices of the `C#` language, I've never used the language before - so I tried to stick with concepts (such as OOP) known from other languages.</i>
-
-<i>Usually, I embed the testing in the whole building workflow, I wasn't able to do that now, probaly this can be done easyliy with the use of the full Visual Studio (?).</i>
-
-Regards
-
-Dimitris Spachos
-
-
-
-
 
